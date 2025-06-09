@@ -20,6 +20,6 @@ sidebar_position: 1
 
 ---
 
-> “A widest and highest spiritualising of life on earth is the last vision of all that vast and unexampled seeking and experiment in a thousand ways of the soul’s outermost and innermost experience which is the unique character of [India’s] past; this in the end is the mission for which she was born and the meaning of her existence.”  
+> “A widest and highest spiritualising of life on earth is the last vision of all that vast and unexampled seeking and experiment in a thousand ways of the soul’s outermost and innermost experience which is the unique character of India’s past; this in the end is the mission for which she was born and the meaning of her existence.”  
 > — *Sri Aurobindo, CWSA, 20: 213*
 

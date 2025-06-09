@@ -25,7 +25,7 @@
   --ifm-color-primary-light: #ffffff;
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
-  --ifm-background-color: #fffffa;
+  --ifm-background-color: #ffffff;
 }
 
 h1 {
@@ -37,7 +37,7 @@ h1 {
 }
 
 .theme-layout-footer {
-  background-color: #800020;
+  background-color: #802f2e;
 }
 
 .menu__link--active {

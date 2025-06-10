@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #802f2e;
-  --ifm-color-primary-dark: #732a29;
-  --ifm-color-primary-darker: #6d2827;
-  --ifm-color-primary-darkest: #5a2120;
-  --ifm-color-primary-light: #8d3433;
-  --ifm-color-primary-lighter: #933635;
-  --ifm-color-primary-lightest: #a63d3c;
+  --ifm-color-primary: #2f4f4f;
+  --ifm-color-primary-dark: #2a4747;
+  --ifm-color-primary-darker: #284343;
+  --ifm-color-primary-darkest: #213737;
+  --ifm-color-primary-light: #345757;
+  --ifm-color-primary-lighter: #365b5b;
+  --ifm-color-primary-lightest: #3d6767;
   --ifm-background-color: ivory;
   --prism-background-color: #802F2E;
   /* your deep red */
@@ -20,13 +20,13 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #fff0f0;
-  --ifm-color-primary-dark: #ffbfbf;
-  --ifm-color-primary-darker: #ffa6a6;
-  --ifm-color-primary-darkest: #ff5b5b;
-  --ifm-color-primary-light: #ffffff;
-  --ifm-color-primary-lighter: #ffffff;
-  --ifm-color-primary-lightest: #ffffff;
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
   --ifm-background-color: #ffffff;
 }
 
@@ -43,7 +43,7 @@ h5 {
 }
 
 .theme-layout-footer {
-  background-color: #802f2e;
+  background-color: darkslategray;
 }
 
 .menu__link--active {

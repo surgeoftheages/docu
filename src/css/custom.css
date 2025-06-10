@@ -13,9 +13,11 @@
   --ifm-color-primary-light: #8d3433;
   --ifm-color-primary-lighter: #933635;
   --ifm-color-primary-lightest: #a63d3c;
-  --ifm-background-color: #fffffa;
-  --prism-background-color: #802F2E; /* your deep red */
+  --ifm-background-color: ivory;
+  --prism-background-color: #802F2E;
+  /* your deep red */
 }
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #fff0f0;
@@ -28,12 +30,16 @@
   --ifm-background-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5 {
-  color: #802F2E;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: darkslategray;
 }
 
 [data-theme='dark'] h1 {
-  color:#fff0f0;
+  color: #fff0f0;
 }
 
 .theme-layout-footer {
@@ -47,3 +53,4 @@ h1, h2, h3, h4, h5 {
 .theme-code-block {
   background-color: yellowgreen;
 }
+

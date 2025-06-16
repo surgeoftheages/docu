@@ -81,22 +81,22 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Siddhars - Title to be decided',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/afp.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Siddhars',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://aurobharati.in',
+            label: 'Aurobharati',
             position: 'right',
           },
         ],
@@ -105,11 +105,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Important Links',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Sidhhar\s of Pondicherry',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Aurobharati.in',
+                href: 'https://aurobharati.in',
               },
             ],
           },
@@ -131,6 +135,23 @@ const config = {
             ],
           },
           {
+            title: 'Others',
+            items: [
+              {
+                label: 'Privacy Policy',
+                to: '#',
+              },
+              {
+                label: 'Accessibilty Statement',
+                to: '#',
+              },
+              {
+                label: 'Terms and Conditions',
+                to: 'https://x.com/docusaurus',
+              },
+            ],
+          },
+          {
             title: 'More',
             items: [
               {
@@ -144,7 +165,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Aurobharati, Sri Aurobindo Society`,
       },
       prism: {
         theme: prismThemes.github,

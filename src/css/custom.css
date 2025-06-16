@@ -46,6 +46,10 @@ h5 {
   background-color: darkslategray;
 }
 
+.theme-layout-navbar {
+  background-color: #FDF5E6;
+}
+
 .menu__link--active {
   background-color: white;
 }
@@ -54,3 +58,6 @@ h5 {
   background-color: yellowgreen;
 }
 
+.navbar__title {
+  color: #2f4f4f
+}

@@ -50,10 +50,6 @@ h5 {
   background-color: #FDF5E6;
 }
 
-.menu__link--active {
-  background-color: white;
-}
-
 .theme-code-block {
   background-color: yellowgreen;
 }

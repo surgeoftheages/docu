@@ -27,7 +27,6 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --ifm-background-color: #ffffff;
 }
 
 h1,
@@ -36,10 +35,6 @@ h3,
 h4,
 h5 {
   color: darkslategray;
-}
-
-[data-theme='dark'] h1 {
-  color: #fff0f0;
 }
 
 .theme-layout-footer {

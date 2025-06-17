@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Siddhars Of Pondicherry',
-  tagline: 'A dedicated attempt',
+  tagline: 'Aurobharati, Sri Aurobindo Society strives to rediscover the genius and outstanding magnificence of Indian culture and works to apply it dynamically to life and all its activities in the building of a new India. It aspires to evoke among the youth a great love for India, pride in their heritage and an aspiration and will to create an even greater future',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

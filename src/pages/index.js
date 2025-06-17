@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Siddhars Of Pondicherry 🪔 
+            🪔 - Enter Siddhars encyclopedia - சித்தர் களஞ்சியம்
           </Link>
         </div>
       </div>

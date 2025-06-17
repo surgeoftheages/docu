@@ -174,7 +174,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Support our project! <a target="_blank" rel="noopener noreferrer" href="#">Donate</a> <a target="_blank" rel="noopener noreferrer" href="#">Volunteer</a>',
+          'Support our project! <a target="_blank" rel="noopener noreferrer" href="#">Donate</a>, <a target="_blank" rel="noopener noreferrer" href="#">Volunteer</a>',
         backgroundColor: 'darkslategray',
         textColor: 'ivory',
         isCloseable: true,

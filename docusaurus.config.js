@@ -171,6 +171,14 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'Support our project! <a target="_blank" rel="noopener noreferrer" href="#">Donate</a> <a target="_blank" rel="noopener noreferrer" href="#">Volunteer</a>',
+        backgroundColor: 'darkslategray',
+        textColor: 'ivory',
+        isCloseable: true,
+      },
     }),
 };
 

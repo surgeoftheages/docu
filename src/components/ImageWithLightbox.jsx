@@ -7,18 +7,18 @@ export default function ImageWithLightbox({ img }) {
   const imageStyle = {
     maxWidth: '100%',
     marginTop: '1rem',
-    filter: 'drop-shadow(0 0 0.75rem violet)'
-  };
+    filter: isLoaded ? 'drop-shadow(0 0 0.75rem violet)' : 'none'
+    };
 
   const handleImageClick = () => {
     console.log(`image ${img} is pressed`),
-    setLoad(true);
+      setLoad(prev => !prev); // toggles true/false
   }
 
   return (
     <div>
       <div>
-        <img src={img} alt="Preview" style={imageStyle} onClick={handleImageClick}/>
+        <img src={img} alt="Preview" style={imageStyle} onClick={handleImageClick} />
       </div>
 
       {/*  set the loading */}

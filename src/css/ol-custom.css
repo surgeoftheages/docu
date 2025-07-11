@@ -1,0 +1,58 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #2f4f4f;
+    --ifm-color-primary-dark: #2a4747;
+    --ifm-color-primary-darker: #284343;
+    --ifm-color-primary-darkest: #213737;
+    --ifm-color-primary-light: #345757;
+    --ifm-color-primary-lighter: #365b5b;
+    --ifm-color-primary-lightest: #3d6767;
+    --ifm-background-color: ivory;
+    --prism-background-color: #802F2E;
+    /* your deep red */
+  }
+  
+  /* For readability concerns, you should choose a lighter palette in dark mode. */
+  [data-theme='dark'] {
+    --ifm-color-primary: #25c2a0;
+    --ifm-color-primary-dark: #21af90;
+    --ifm-color-primary-darker: #1fa588;
+    --ifm-color-primary-darkest: #1a8870;
+    --ifm-color-primary-light: #29d5b0;
+    --ifm-color-primary-lighter: #32d8b4;
+    --ifm-color-primary-lightest: #4fddbf;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: darkslategray;
+  }
+  
+  .theme-layout-footer {
+    background-color: darkslategray;
+  }
+  
+  .theme-layout-navbar {
+    background-color: #FDF5E6;
+  }
+  
+  .theme-code-block {
+    background-color: yellowgreen;
+  }
+  
+  .navbar__title {
+    color: #2f4f4f
+  }
+  
+  .hero__title{
+    color: ivory;
+  }

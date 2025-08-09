@@ -25,22 +25,39 @@ export default function LightboxGallery() {
   ];
 
   return (
-    <div>
-      <div style={{ display: 'flex', gap: '10px', marginTop: '1rem' }}>
+    <>
+      <style>{`
+        .gallery-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 1rem;
+          justify-content: center;
+        }
+        .gallery-image {
+          width: calc(33.333% - 10px);
+          border-radius: 8px;
+          cursor: pointer;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+          object-fit: cover;
+        }
+        @media (max-width: 768px) {
+          .gallery-image {
+            width: 100% !important;
+          }
+        }
+      `}</style>
+
+      <div className="gallery-container">
         {images.map((img, i) => (
           <img
             key={i}
             src={img.src}
             alt={img.alt}
+            className="gallery-image"
             onClick={() => {
               setIndex(i);
               setOpen(true);
-            }}
-            style={{
-              width: '200px',
-              borderRadius: '8px',
-              cursor: 'pointer',
-              boxShadow: '0 2px 5px rgba(0,0,0,0.2)',
             }}
           />
         ))}
@@ -56,11 +73,15 @@ export default function LightboxGallery() {
             <img
               src={slide.src}
               alt={slide.alt}
-              style={{ maxHeight: '80vh', maxWidth: '90vw', objectFit: 'contain' }}
+              style={{
+                maxHeight: '80vh',
+                maxWidth: '90vw',
+                objectFit: 'contain',
+              }}
             />
           ),
         }}
       />
-    </div>
+    </>
   );
 }

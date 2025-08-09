@@ -1,5 +1,6 @@
 # list of tasks
 
+- so the file lighbox, seperate it from lightbox and apss as strings utiltiy
 - conver the file in jsx
 - pass an image caption alone
 - make it responsive no mobile the flex is non responsive

@@ -8,7 +8,7 @@ export default function LightboxGallery() {
 
   const images = [
     {
-      src: '/img/siddhar-thaengaai-swami.jpg',
+      src: '/img/exampleimg.png',
       alt: 'Siddhar Thaengaai Swami',
       title: 'Siddhar Thaengaai Swami',
     },
@@ -18,7 +18,7 @@ export default function LightboxGallery() {
       title: 'Sample Example Image',
     },
     {
-      src: '/img/siddhar-thaengaai-swami.jpg',
+      src: '/img/exampleimg.png',
       alt: 'Siddhar Again',
       title: 'Siddhar Again',
     },
